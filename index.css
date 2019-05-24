@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: block;
+    padding: 40px 40px 500px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(112, 111, 111);
+    font-size: 43px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    
+  }
+  
+  #js-form {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #js-search-term {
+    width: 40%;
+    margin: 20px;
+    border: solid lightgrey 2px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #js-max-results {
+    width: 40%;
+    margin: 20px;
+    border: solid lightgrey 2px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    width: 40%;
+    background: #64c46f;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    background-color:rgb(89, 145, 89);
+    transition: all 0.3s ease;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  ul {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 45px;
+    padding: 0;
+    border-bottom: solid lightgrey 2px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    color: rgba(135, 58, 197, 0.7);
+    font-size: 20px;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+    box-shadow : 0px 0px 5px rgba(0,0,0,0.7);
+    margin-bottom: 15px;
+  }
+  
+  .logo {
+    width: 100px;
+    box-shadow: none;
+  }
+  
+  .logotainer {
+    text-align: center;
+    padding: 10px;
+  }
